@@ -43,24 +43,48 @@ interface Cluster {
 
 const graph = new Graph();
 
-const RED = "#FA4F40";
-const BLUE = "#727EE0";
-const GREEN = "#5DB346";
-
-graph.addNode("John", { size: 50, label: "John", type: "image", image: "./sticker.svg", color: RED });
-graph.addNode("Mary", { size: 50, label: "Mary", type: "image", image: "./sticker.svg", color: RED });
-graph.addNode("Suzan", { size: 50, label: "Suzan", type: "image", image: "./sticker.svg", color: RED });
-graph.addNode("Nantes", { size: 50, label: "Nantes", type: "image", image: "./sticker.svg", color: BLUE });
-graph.addNode("New-York", { size: 50, label: "New-York", type: "image", image: "./sticker.svg", color: BLUE });
-graph.addNode("Tilburg", { size: 50, label: "Tilburg", type: "image", image: "./sticker.svg", color: BLUE });
-graph.addNode("Jeroen", { size: 50, label: "Jeroen", type: "image", image: "./user.svg", color: GREEN });
-
-graph.addEdge("John", "Mary", { type: "line", label: "works with", size: 5 });
-graph.addEdge("Mary", "Suzan", { type: "line", label: "works with", size: 5 });
-graph.addEdge("Mary", "Nantes", { type: "arrow", label: "lives in", size: 5 });
-graph.addEdge("John", "New-York", { type: "arrow", label: "lives in", size: 5 });
-graph.addEdge("Suzan", "New-York", { type: "arrow", label: "lives in", size: 5 });
-graph.addEdge("Jeroen", "Tilburg", { type: "arrow", label: "lives", size: 5 });
+graph.addNode("1", { size: 50, label: "PV - informeren verdachte", type: "image", image: "./sticker.svg", color: "#E44234" });
+graph.addNode("2", { size: 50, label: "Bronnenlijst NFI", type: "image", image: "./sticker.svg", color: "#80E5B1" });
+graph.addNode("3", { size: 50, label: "Munitie - foto2", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("4", { size: 50, label: "Munitie - foto3", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("5", { size: 50, label: "PV - verhoor getuige - Personalia", type: "image", image: "./sticker.svg", color: "#2E4B8B" });
+graph.addNode("6", { size: 50, label: "art 9, lid 4 PolW 2012", type: "image", image: "./sticker.svg", color: "#88271F" });
+graph.addNode("7", { size: 50, label: "PV - identificatie", type: "image", image: "./sticker.svg", color: "#E44234" });
+graph.addNode("8", { size: 50, label: "PVB - gang van zaken - schoten", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("9", { size: 50, label: "art 94 Sv", type: "image", image: "./sticker.svg", color: "#88271F" });
+graph.addNode("10", { size: 50, label: "Munitie - onderzoek inleiding", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("11", { size: 50, label: "Munitie - onderzoek algemeen", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("12", { size: 50, label: "Munitie - nfi vuurwapens", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("13", { size: 50, label: "Munitie - foto4", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("14", { size: 50, label: "Verdachte - PV personalia", type: "image", image: "./sticker.svg", color: "#FFE6A2" });
+graph.addNode("15", { size: 50, label: "PV - Grond aanhouding", type: "image", image: "./sticker.svg", color: "#E44234" });
+graph.addNode("16", { size: 50, label: "Woordenlijst NFI vuurwapens", type: "image", image: "./sticker.svg", color: "#E2A1E6" });
+graph.addNode("17", { size: 50, label: "PV - bevindingen", type: "image", image: "./sticker.svg", color: "#E44234" });
+graph.addNode("18", { size: 50, label: "art 7, lid 4, PolW 2012", type: "image", image: "./sticker.svg", color: "#88271F" });
+graph.addNode("19", { size: 50, label: "Art 7, lid 3, PolW 2012", type: "image", image: "./sticker.svg", color: "#88271F" });
+graph.addNode("20", { size: 50, label: "Munitie - politieonderzoek", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("21", { size: 50, label: "PV - Verhoor getuige - Niet NL-talig", type: "image", image: "./sticker.svg", color: "#2E4B8B" });
+graph.addNode("22", { size: 50, label: "Munitie - PO labeling beslag hulzen", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("23", { size: 50, label: "PVB - gang van zaken - mes", type: "image", image: "./sticker.svg", color: "#9C9C9C" });
+graph.addNode("24", { size: 50, label: "KVI - Fileermes", type: "image", image: "./sticker.svg", color: "#9C9C9C" });
+graph.addNode("25", { size: 50, label: "PVB - politie onderzoek - kogelfragment", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("26", { size: 50, label: "PVB - politie onderzoek - mes", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("27", { size: 50, label: "PVB - politieonderzoek - patroonhouders", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("28", { size: 50, label: "Munitie - vergelijkend onderzoek", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("29", { size: 50, label: "Munitie - vooronderzoek", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("30", { size: 50, label: "Munitie pv", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("31", { size: 50, label: "Munitie - foto1", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("32", { size: 50, label: "Munitie - nfi sporen", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("33", { size: 50, label: "Verdachte PV Aanhouding", type: "image", image: "./sticker.svg", color: "#FFE6A2" });
+graph.addNode("34", { size: 50, label: "art. 56 Sv", type: "image", image: "./sticker.svg", color: "#88271F" });
+graph.addNode("35", { size: 50, label: "art. 9 lid 2 Opw", type: "image", image: "./sticker.svg", color: "#88271F" });
+graph.addNode("36", { size: 50, label: "art 52, lid 2 WWM", type: "image", image: "./sticker.svg", color: "#88271F" });
+graph.addNode("37", { size: 50, label: "Verdachte - PV verhoor", type: "image", image: "./sticker.svg", color: "#FFE6A2" });
+graph.addNode("38", { size: 50, label: "Munitie - PO bloedsporen", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("39", { size: 50, label: "Munitie - PO kogelhuls plaats delict", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("40", { size: 50, label: "Munitie - PO detailopname kogel", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("41", { size: 50, label: "Munitie - PO - kogelhuls", type: "image", image: "./sticker.svg", color: "#FFC67B" });
+graph.addNode("42", { size: 50, label: "Munitie - KVI hulzen", type: "image", image: "./sticker.svg", color: "#FFC67B" });
 
 graph.nodes().forEach((node, i) => {
   const angle = (i * 2 * Math.PI) / graph.order;
@@ -97,6 +121,10 @@ renderer.on("downNode", (e) => {
   draggedNode = e.node;
   graph.setNodeAttribute(draggedNode, "highlighted", true);
   renderer.getCamera().disable();
+});
+
+renderer.on("clickNode", (e) => {
+  console.log(graph.getNodeAttributes(e.node))
 });
 
 // On mouse move, if the drag mode is enabled, we change the position of the draggedNode
